@@ -25,10 +25,7 @@ const Analytics = () => {
           </TabItem>
         ))}
       </Tabs>
-      <Routes>
-        {MultiRoute(<AnalyticsCards />, "*", "/summary")}
-        <Route path="*" element="" />
-      </Routes>
+      <Routes>{MultiRoute(<AnalyticsCards />, "*", "/summary")}</Routes>
     </AnalyticsContainer>
   );
 };

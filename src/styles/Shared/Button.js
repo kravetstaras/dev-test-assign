@@ -18,3 +18,5 @@ export const Button = styled.button`
     background-color: ${PALETTE.colors.button.hovered};
   }
 `;
+
+export const MailLink = styled.a``;
